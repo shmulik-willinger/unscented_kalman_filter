@@ -18,11 +18,6 @@ The three most important probabilities of the UKF as a central fusion tool for s
 * The UKF give information on how precise the result is, because it always provides a covariance matrix for every estimation, and we know that this covariance matrix is realistic since the UKF performs a consistency check.
 
 
-This project involves the Udacity Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
-
-The WebSocket and other initial info regarding dependencies  installation can be found  [here](https://github.com/udacity/CarND-Extended-Kalman-Filter-Project)
-
-
 Prerequisites and Executing
 ---
 
@@ -38,6 +33,11 @@ This project requires the following dependencies:
   * Linux: gcc / g++ is installed by default on most Linux distros
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
+
+
+  This project involves the Udacity Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
+
+  The WebSocket and other initial info regarding dependencies  installation can be found  [here](https://github.com/udacity/CarND-Extended-Kalman-Filter-Project)
 
 Build Instructions:
 
@@ -95,6 +95,10 @@ The video below shows how the simulator performs when running with this Kalman f
 * Estimation markers are green triangles
 
 [![video output](https://github.com/shmulik-willinger/unscented_kalman_filter/blob/master/readme_img/dataset_1.gif)]
+
+I'm curently trying to finish the extra challenge where We need to catch a run away car with the implementation of an Unscented Kalman Filter. The capture car and the run away car have the same max velocity, so in order for the capture vehicle to catch the run away car, it will need to predict where the car will be ahead of time. curently this is how the process looks when running in the simulator:
+
+[![video output](https://github.com/shmulik-willinger/unscented_kalman_filter/blob/master/readme_img/Catch-Run-Away-Car.gif)]
 
 comment:
  In order for the project to run faster, I canceled the printing of the data during the running process.
