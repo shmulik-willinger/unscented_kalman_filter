@@ -35,9 +35,9 @@ This project requires the following dependencies:
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 
 
-  This project involves the Udacity Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
+This project involves the Udacity Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
 
-  The WebSocket and other initial info regarding dependencies  installation can be found  [here](https://github.com/udacity/CarND-Extended-Kalman-Filter-Project)
+The WebSocket and other initial info regarding dependencies  installation can be found  [here](https://github.com/udacity/CarND-Extended-Kalman-Filter-Project)
 
 Build Instructions:
 
@@ -55,7 +55,7 @@ Running the project:
 Process results
 ---
 
-The simulator final state after running the EKL:
+The simulator final state after running the UKL:
 
 Dataset 1              |  Dataset 2
 :---------------------:|:---------------------:
